@@ -15,7 +15,7 @@ const main = async () => {
       const donations = data.message;
       for (const donation of donations) {
         const { name, formatted_amount, message, from } = donation;
-        await nightbot.say(`${name} just donated ${formatted_amount}! ${message}`)
+        await nightbot.say(`${name} just donated ${formatted_amount}! ${message}`);
       }
     }
   });

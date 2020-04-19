@@ -50,8 +50,8 @@ class NightbotConnection {
     const duration = parseInt(expiresIn) * 1000 / 2;
 
     setTimeout(() => {
-      this.refresh().catch(console.error)
-    }, duration)
+      this.refresh().catch(console.error);
+    }, duration);
   }
 
   async refresh() {
