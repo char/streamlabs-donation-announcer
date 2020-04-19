@@ -1,0 +1,12 @@
+{
+  "name": "streamlabs-donation-announcer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "qs": "^6.9.3",
+    "socket.io": "^2.3.0",
+    "streamlabs": "^3.0.0"
+  }
+}
