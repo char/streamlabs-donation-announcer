@@ -4,6 +4,7 @@ Announces in chat through Nightbot when you receive a donation via StreamLabs.
 
 ## Requirements
 
+- Install the dependencies with `npm` or `yarn`.
 - Copy `.env.schema` into `.env` and fill in the values.
   - You will need to find your [Streamlabs socket API token](https://streamlabs.com/dashboard#/settings/api-settings).
   - You will need to create a new [Nightbot app](https://nightbot.tv/account/applications) with `https://nightbot.tv/` in its 'Redirect URIs'.
